@@ -1,0 +1,15 @@
+jenkins:
+    nodes:
+    - permanent:
+        labelString: "agent"
+        launcher: "inbound"
+        mode: EXCLUSIVE
+        name: "agent"
+        remoteFS: "/home/jenkins"
+        retentionStrategy: "always"
+    nodeMonitors:
+    - diskSpace:
+        freeSpaceThreshold: "1GB"
+    - tmpSpace:
+        freeSpaceThreshold: "1GB"
+    numExecutors: 0
