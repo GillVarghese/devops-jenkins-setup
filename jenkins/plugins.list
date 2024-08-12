@@ -1,0 +1,12 @@
+antisamy-markup-formatter:                                        # markup formatting
+branch-api:2.1178.v969d9eb_c728e                                  # branch-api
+build-timeout:1.33                                                # build-timeout
+cloudbees-folder:6.928.v7c780211d66e                              # folders
+configuration-as-code-groovy:1.1                                  # jcasc
+configuration-as-code:1836.cda__122a_e                            # jcasc
+email-ext:1814.v404722f34263                                      # emails
+github-branch-source:1793.v1831e9c68d77                           # github
+github:1.39.0                                                     # more github
+junit:1280.v310a_78b_9a_1e0                                       # junit
+workflow-aggregator:600.vb_57cdd26fdd7                            # pipeline
+workflow-durable-task-step:1364.v2fd76fb_6fd41                    # durable task
