@@ -4,7 +4,7 @@ pipeline {
     }
 
     triggers {
-        upstream(upstreamProjects: 'devops-exercise-job-repo', threshold: hudson.model.Result.SUCCESS)
+        upstream(upstreamProjects: 'devops-exercise-job-repo', threshold: hudson.model.Result.UNSTABLE)
     }
 
     stages {
